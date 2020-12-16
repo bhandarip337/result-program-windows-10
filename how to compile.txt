@@ -1,0 +1,5 @@
+gcc -c drawing.c
+gcc -c result.c
+gcc drawing.o result.o main.c -o main.exe
+or
+gcc -Wall drawing.c result.c main.c -o main.exe
